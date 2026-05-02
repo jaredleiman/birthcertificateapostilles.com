@@ -12,8 +12,8 @@ Static site for birthcertificateapostilles.com. Pure HTML/CSS, no build step.
 
 ## Pre-deploy checklist
 
-- [ ] Replace `FORM_ID_HERE` everywhere with your Formspree form ID:
-      `grep -rl "FORM_ID_HERE" . | xargs sed -i 's/FORM_ID_HERE/YOUR_ID_HERE/g'`
+- [ ] Replace `xgodowpg` everywhere with your Formspree form ID:
+      `grep -rl "xgodowpg" . | xargs sed -i 's/xgodowpg/YOUR_ID_HERE/g'`
       (on macOS: `xargs sed -i ''`)
 - [ ] Verify Formspree form is set to deliver to jared@apostillellc.com
 - [ ] Spot-check a few state pages to confirm hero photos load
